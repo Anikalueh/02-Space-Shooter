@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Project 02 Start Screen 2023-02-12 19_07_14.mp3-644548328ef63b7c3d9fdb5914e7cf12.mp3str"
+
+[deps]
+
+source_file="res://Assets/Project 02 Start Screen 2023-02-12 19_07_14.mp3"
+dest_files=[ "res://.import/Project 02 Start Screen 2023-02-12 19_07_14.mp3-644548328ef63b7c3d9fdb5914e7cf12.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

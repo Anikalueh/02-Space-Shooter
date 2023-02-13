@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Project 02 Game 2023-02-12 19_12_23.mp3-c6cb4c0b00af627c9dc601867468bc5a.mp3str"
+
+[deps]
+
+source_file="res://Assets/Project 02 Game 2023-02-12 19_12_23.mp3"
+dest_files=[ "res://.import/Project 02 Game 2023-02-12 19_12_23.mp3-c6cb4c0b00af627c9dc601867468bc5a.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

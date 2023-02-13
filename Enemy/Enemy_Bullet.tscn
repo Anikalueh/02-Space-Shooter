@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Enemy/Enemy_Bullet.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Bullet_Enemy-1.png.png" type="Texture" id=2]
+
+[node name="Enemy_Bullet" type="Area2D"]
+position = Vector2( 1.5, 1.5 )
+scale = Vector2( 0.1, 0.1 )
+script = ExtResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 2 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PoolVector2Array( 2, -65, 3.90002, -36, 32.8, -36, 36, -32.8, 36, 2, 33.1, 2, 4, 3.90002, 4, 32.8, 0.799988, 36, -34, 36, -34, 33, -35.9, 4, -64.8, 4, -68, 0.799988, -68, -33.9, -36, -35.9, -36, -65.2, -34, -66.2, -34, -68, 2, -68 )
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.75
+autostart = true
+
+[connection signal="body_entered" from="." to="." method="_on_Enemy_Bullet_body_entered"]
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

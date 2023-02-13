@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Project 02 Level Picking 2023-02-12 19_08_28.mp3-35758074d4c312cbeabdb7c9d5ae3c2c.mp3str"
+
+[deps]
+
+source_file="res://Assets/Project 02 Level Picking 2023-02-12 19_08_28.mp3"
+dest_files=[ "res://.import/Project 02 Level Picking 2023-02-12 19_08_28.mp3-35758074d4c312cbeabdb7c9d5ae3c2c.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
